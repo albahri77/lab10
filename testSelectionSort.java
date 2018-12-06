@@ -12,6 +12,8 @@ testDuplicates();
 public testSelectionSort() {
 }
 public void testPositive(){
+// comment one here 
+// fixed this
 int[] arr = new int[5];
 arr[0] = 8;
 arr[1] = 9;
@@ -29,6 +31,8 @@ arr = arr1.basicSelectionSort(arr);
 assertArrayEquals(Sortedarr, arr);
 }
 public void testNegative(){
+// comment here again 
+// fixed this
 int[] arr = new int[5];
 arr[0] = -8;
 arr[1] = -9;
