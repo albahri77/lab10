@@ -50,6 +50,7 @@ arr = arr1.basicSelectionSort(arr);
 assertArrayEquals(Sortedarr, arr);
 }
 public void testMixed(){
+// changes here
 int[] arr = new int[5];
 arr[0] = -8;
 arr[1] = 9;
@@ -67,6 +68,7 @@ arr = arr1.basicSelectionSort(arr);
 assertArrayEquals(Sortedarr, arr);
 }
 public void testDuplicates(){
+// change here again
 int[] arr = new int[5];
 arr[0] = 8;
 arr[1] = 9;
